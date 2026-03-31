@@ -1,0 +1,7 @@
+theia@theia-ratshivhanda:/home/project/expressBookReviews/final_project$ cl http://localhost:5000/review/1
+url http://localhost:5000/review/1
+{"message":"No reviews found for this book."}theia@theia-ratshivhanda:/home/project/expressBookReviews/final_project$
+ curl -X POST http://localhost:5000/register \
+-H "Content-Type: application/json" \
+-d '{"username": "testuser", "password": "1234"}'
+{"message":"User registered successfully"}

@@ -1,3 +1,4 @@
-theia@theia-ratshivhanda:/home/project/expressBookReviews/final_project$ cl http://localhost:5000/review/1
-url http://localhost:5000/review/1
-{"message":"No reviews found for this book."}
+theia@theia-ratshivhanda:/home/project/expressBookReviews/fin
+al_project$ cum$ curl -X DELETE http://localhost:5000/customer/auth/review/1 \
+-b cookies.txt
+{"message":"Review deleted successfully"}

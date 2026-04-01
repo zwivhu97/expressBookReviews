@@ -1,5 +1,5 @@
-theia@theia-ratshivhanda:/home/project$ curl -X POST http://localhost:5000/customer/login \
+nal_project$ c0m$ curl -X POST http://localhost:5000/customer/login \
 -H "Content-Type: application/json" \
 -d '{"username": "testuser", "password": "1234"}' \
 -c cookies.txt
-{"message":"Invalid login credentials"}
+{"message":"Login successful!"}

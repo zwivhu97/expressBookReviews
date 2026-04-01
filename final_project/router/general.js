@@ -22,7 +22,7 @@ public_users.post("/register", (req, res) => {
 
     users.push({ username, password });
 
-    return res.status(200).json({ message: "User registered successfully" });
+    return res.status(200).json({ message: "User successfully registered" });
 });
 
 

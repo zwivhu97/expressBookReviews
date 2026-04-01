@@ -34,7 +34,7 @@ regd_users.post("/login", (req, res) => {
     accessToken
   };
 
-  return res.status(200).json({ message: "User successfully logged in" });
+  return res.status(200).json({ message: "Login successful!" });
 });
 
 // ADD / MODIFY REVIEW
